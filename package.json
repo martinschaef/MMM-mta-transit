@@ -1,0 +1,24 @@
+{
+  "name": "MMM-mta-transit",
+  "version": "0.0.1",
+  "description": "MTA transit information for Magic Mirror",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinschaef/MMM-mta-transit.git"
+  },
+  "keywords": [
+    "magic mirror",
+    "transportation",
+    "mta"
+  ],
+  "author": "Martin Schaef",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinschaef/MMM-mta-transit/issues"
+  },
+  "homepage": "https://github.com/martinschaef/MMM-mta-transit",
+  "dependencies": {
+    "unirest": "latest",
+    "node-forge": "latest"
+    }
+}
