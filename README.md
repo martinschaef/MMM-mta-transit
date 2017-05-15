@@ -14,7 +14,7 @@ You need to obtain your API key here: http://datamine.mta.info/user/register
 
 # Setup config file
 
-```json
+```javascript
 {
   module: "MMM-mta-transit",
   position: "top_right",
@@ -31,7 +31,7 @@ You need to obtain your API key here: http://datamine.mta.info/user/register
 Currently it only displays general delays and service changes and no real time data.
 This is because I live on the Q Train and MTA does not yet provide real time data for most of Brooklyn.
 
-[Screen](screen.png)
+![Screen](screen.png)
 
 The CSS needs work. Volunteers more than welcome.
 
