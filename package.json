@@ -19,6 +19,7 @@
   "homepage": "https://github.com/martinschaef/MMM-mta-transit",
   "dependencies": {
     "unirest": "latest",
-    "node-forge": "latest"
+    "node-forge": "latest",
+    "mta-gtfs": "latest"
     }
 }

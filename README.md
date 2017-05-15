@@ -4,7 +4,7 @@
 
 Requires [MTA gtfs](https://github.com/aamaliaa/mta-gtfs) node module:
 ```bash
- npm install mta-gtfs --save 
+ npm install
  ```
 
 # Get API key
@@ -19,15 +19,21 @@ You need to obtain your API key here: http://datamine.mta.info/user/register
   module: "MMM-mta-transit",
   position: "top_right",
   config: {
-    apiKey: "83965773598aad12a31e806be3a89718",
-    stations: [ {
-        stopId: 245,
-        direction: 'S',
-        trains: "123"
-      },
-    ],
+    updateInterval: 30 * 60 * 1000, // Update 30 minutes.
+    initialLoadDelay: 0,
+    apiKey: "Get it from http://datamine.mta.info/user/register",   
+    trainStatus: ['Q'], //the trains for which status should be displayed
+    statusId: ['DELAYS', 'SERVICE CHANGE'], //or PLANNED WORK     
   }
 },
 ```
 
-Note that MTA currently doesn't support all stops for all trains (e.g., Q only has 3 stops).
+Currently it only displays general delays and service changes and no real time data.
+This is because I live on the Q Train and MTA does not yet provide real time data for most of Brooklyn.
+
+[Screen](screen.png)
+
+The CSS needs work. Volunteers more than welcome.
+
+
+

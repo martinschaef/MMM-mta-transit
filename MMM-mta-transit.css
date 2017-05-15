@@ -14,3 +14,36 @@
 .mtatransport .red {
     color: #FF0000
 }
+
+
+.TrainName {
+	color: #FFFF00
+}
+
+.TitlePlannedWork {
+    visibility: hidden;
+}
+
+.plannedWorkDetailLink {
+visibility: hidden;
+}
+
+.plannedWorkDetail {
+visibility: hidden;
+}
+
+.plannedworkTableStyle {
+visibility: hidden;
+}
+
+.TitleDelay {
+	font-size: 75%;
+}
+
+.DateStyle {
+	visibility: hidden;
+}
+
+.TitleServiceChange {
+	font-size: 75%;
+}
